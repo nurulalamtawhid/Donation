@@ -1,0 +1,43 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0%;
+}
+/**top banner start from here***/
+.topbanner{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+}
+.banner>h1{
+ 
+    font-size: 30px;
+    color: aliceblue;
+}
+.banner{
+    text-align: center;
+    color: aliceblue;
+    
+}
+.banner>p{
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    color: aliceblue;
+    margin-bottom: 40px;
+    
+}
+.banner>a{
+    text-decoration: none;
+    font: bold;
+    background-image: linear-gradient(rgb(252, 252, 252),rgb(52, 162, 182));
+    color: rgb(20, 3, 20);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 3px;
+    
+    
+}
+.five{
+    color: rgb(176, 228, 146);
+}
