@@ -2,7 +2,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     margin: 0%;
 }
-/**top banner start from here***/
+/**----------------top banner start from here-------------------------------------------------***/
 .topbanner{
     background-image: url(images/banner.jpg);
     background-size: cover;
@@ -17,6 +17,7 @@ body{
 .banner{
     text-align: center;
     color: aliceblue;
+    margin-bottom: 20px;
     
 }
 .banner>p{
@@ -30,8 +31,8 @@ body{
 .banner>a{
     text-decoration: none;
     font: bold;
-    background-image: linear-gradient(rgb(252, 252, 252),rgb(52, 162, 182));
-    color: rgb(20, 3, 20);
+    background-image: linear-gradient(rgb(252, 122, 122),rgb(248, 86, 57));
+    color: rgb(236, 236, 236);
     text-align: center;
     padding: 10px 20px;
     border-radius: 3px;
@@ -39,5 +40,72 @@ body{
     
 }
 .five{
-    color: rgb(176, 228, 146);
+    color: rgb(224, 104, 104);
 }
+/**----------------------------top banner end here-------------------------------------------------------*/
+
+/**----------------------------Donate Today section start-----------------------------------------------*/
+.todays-donation{
+    text-align: center;
+    color: black;
+    
+}
+.todays-donation>h1{
+    padding-top: 100px;
+    font-size: 40px;
+}
+.todays-donation>p{
+    padding-top: 0%;
+    color: grey;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.box-1{
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    border: 2px;
+    box-shadow: 5px 7px 40px aliceblue;
+    opacity: 0.5;
+}
+
+.box-2{
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    box-shadow: 5px 7px 40px aliceblue;
+}
+.box-2>h3{
+    font: bold;
+    color: tomato;
+}
+.todays-donation>a{
+    text-decoration: none;
+    font: bold;
+    background-image: linear-gradient(rgb(252, 122, 122),rgb(248, 86, 57));
+    color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 3px;
+
+}
+input{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: groove 180px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: grey;
+}
+
+
+
+
