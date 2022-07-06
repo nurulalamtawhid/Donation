@@ -100,12 +100,90 @@ input{
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
-    border-bottom-style: groove 180px;
+    border-bottom-style: groove 80;
     margin-bottom: 40px;
     text-align: center;
     color: grey;
 }
+/**---------------------------------todays-donation end here---------------------------------------**/
 
+/**-----------------------------------donation plan-----------------------------------------------**/
+.donation-plan{
+   
+    color: black;
+    padding-bottom: 10px;
+    
+}
+.donation-plan>h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+.donation-plan>p{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+    color: grey;
+}
+.container-2{
+    display: flex;
+}
+.food{
+    height: 400px;
+    width: 600px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    border: 2px;
+    background-color: aliceblue;
+    box-shadow: 5px 7px 5px rgb(206, 224, 240);
+  
+}
+
+
+
+.home{
+    height: 400px;
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px;
+    background-color:rgb(255, 238, 238);
+    box-shadow: 5px 7px 5px rgb(206, 224, 240);
+    
+    
+}
+.imge{
+  padding-top: 80px;
+  padding-left: 20px;
+    
+}
+.text>h3{
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 0%;
+    font: bold;
+    font-size: 25px;
+    color: black;
+}
+.text>p{
+    padding-left: 25px;
+    opacity: 0.6;
+}
+.education{
+    height: 400px;
+    width: 600px;
+    
+    margin-left: 20px;
+    margin-bottom: 30px;
+   
+    border: 2px;
+    background-color:rgb(255, 240, 214);
+    box-shadow: 5px 7px 5px rgb(206, 224, 240);
+    
+}
 
 
 
