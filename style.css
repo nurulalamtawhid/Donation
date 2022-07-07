@@ -24,8 +24,9 @@ body{
     text-align: center;
     padding-left: 500px;
     padding-right: 500px;
-    color: aliceblue;
+    color:aliceblue;
     margin-bottom: 40px;
+    font-size: 16px;
     
 }
 .banner>a{
@@ -39,8 +40,11 @@ body{
     
     
 }
+.Jakat{
+    color:rgb(254, 214, 0); ;
+}
 .five{
-    color: rgb(224, 104, 104);
+    color: rgb(254, 214, 0);
 }
 /**----------------------------top banner end here-------------------------------------------------------*/
 
@@ -97,18 +101,19 @@ body{
     border-radius: 3px;
 
 }
-input{
+#amount{
+    width: 800px;
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
     border-bottom-style: groove 80;
-    margin-bottom: 40px;
+    margin-bottom:40px;
     text-align: center;
     color: grey;
 }
 /**---------------------------------todays-donation end here---------------------------------------**/
 
-/**-----------------------------------donation plan-----------------------------------------------**/
+/**-----------------------------------Donation plan-----------------------------------------------**/
 .donation-plan{
    
     color: black;
@@ -185,7 +190,7 @@ input{
     box-shadow: 5px 7px 5px rgb(206, 224, 240);
     
 }
-/**-----------sdonation plan end here----------------**/
+/**-----------Donation plan end here----------------**/
 
 
 /**-----------Jakat-calculator start from here----------------**/
@@ -250,6 +255,21 @@ input{
 .im-banner{
     padding-left: 10px;
 }
+
+#gold{
+    margin-bottom: 4px;
+    margin-left: 35px;
+    width: 163px;
+}
+#cash{
+    margin-left: 40px;
+    margin-bottom: 4px;
+}
+#lib{
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
 /*-------------Jakat-calculator end here---------------------------------------------------*/
 
 /*-------------Updates part start here---------------------------------------*/
@@ -276,6 +296,7 @@ input[type=submit] {
     border: none;
     color: white;
     padding: 18px 30px;
+    margin-left: -5px;
     
   }
   input[type=email] {
